@@ -76,7 +76,7 @@ function timeWord(str) {
         50: 'fifty',
     }
 
-    strSplit = str.split(':')
+    const strSplit = str.split(':')
     let hr = +strSplit[0]
     const min = +strSplit[1]
 
